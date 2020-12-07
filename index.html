@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <title>CALCULATOR</title>
+</head>
+
+<body>
+
+
+    <div class="container  h-100">
+        <div class="head row justify-content-center  m-auto text-center fixed-top">
+            <div class="">
+                CALCULATOR
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center  h-100 mt-5">
+            <div class="calc rounded-lg ">
+                <div id="text-area" class="form-control my-3 rounded-pill"></div>
+                <div class="">
+                    <div>
+                        <button onclick="typex(0);" class="btn-danger rounded-pill" name="c">c</button>
+                        <button onclick="typex(1);" class="btn-outline-info rounded-pill">%</button>
+                        <button onclick="typex(2);" class="btn-outline-info rounded-pill">-</button>
+                        <button onclick="typex(3);" class="btn-warning rounded-pill">⌫</button>
+
+                    </div>
+                    <div>
+
+                        <button onclick="typex(4);" class="btn-outline-success rounded-pill">7</button>
+                        <button onclick="typex(5);" class="btn-outline-success rounded-pill">8</button>
+                        <button onclick="typex(6);" class="btn-outline-success rounded-pill">9</button>
+                        <button onclick="typex(7);" class="btn-outline-info rounded-pill">x</button>
+
+                    </div>
+                    <div>
+                        <button onclick="typex(8);" class="btn-outline-success rounded-pill">4</button>
+                        <button onclick="typex(9);" class="btn-outline-success rounded-pill">5</button>
+                        <button onclick="typex(10);" class="btn-outline-success rounded-pill">6</button>
+                        <button onclick="typex(11);" class="btn-outline-info rounded-pill">+</button>
+                    </div>
+                    <div>
+
+                        <button onclick="typex(12);" class="btn-outline-success rounded-pill">1</button>
+                        <button onclick="typex(13);" class="btn-outline-success rounded-pill">2</button>
+                        <button onclick="typex(14);" class="btn-outline-success rounded-pill">3</button>
+                        <button onclick="typex(15);" class="btn-outline-info rounded-pill">/</button>
+                    </div>
+                    <div>
+                        <button onclick="typex(16);" class="btn-outline-success rounded-pill">0</button>
+                        <button onclick="typex(17);" class="btn-outline-success rounded-pill dot">.</button>
+                        <button onclick="typex(18);" class="btn-info rounded-pill equal">=</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.5.1.slim.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/main.js "></script>
+
+
+</body>
+
+</html>
